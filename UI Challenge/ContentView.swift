@@ -13,7 +13,13 @@ struct ContentView: View {
         NavigationView {
           // UIListView()
            // .navigationTitle("UI Challenges")
-            NFHomeView()
+          //  NFHomeView()
+            if #available(iOS 15.0, *) {
+                GHomeView()
+            } else {
+                // Fallback on earlier versions
+                NFHomeView()
+            }
 //            .environmentObject(nfViewModel)
         }
         

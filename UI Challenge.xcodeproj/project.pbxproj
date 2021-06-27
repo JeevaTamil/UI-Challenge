@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80AA810268860050040F856 /* GWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80AA80F268860050040F856 /* GWeatherView.swift */; };
+		A80AA812268860330040F856 /* GCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80AA811268860330040F856 /* GCardView.swift */; };
 		A83515EC266B70BF00532984 /* VideoControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83515EB266B70BF00532984 /* VideoControllerView.swift */; };
 		A83515EF266B72CA00532984 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83515EE266B72CA00532984 /* VideoPlayerView.swift */; };
 		A83515F2266B73D700532984 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83515F1266B73D700532984 /* Movie.swift */; };
@@ -33,10 +35,13 @@
 		A87198D425DA820D00ED4DD7 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87198D325DA820D00ED4DD7 /* UIScrollView.swift */; };
 		A8D9F62A25E0AF91001B81CD /* InProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D9F62925E0AF91001B81CD /* InProgressView.swift */; };
 		A8D9F62E25E0C350001B81CD /* ViewModifierUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D9F62D25E0C350001B81CD /* ViewModifierUtil.swift */; };
+		A8E3DAB42688485F0083CFDA /* GHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E3DAB32688485F0083CFDA /* GHomeView.swift */; };
 		A8EF49D725F343EA00532E1C /* UICProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF49D625F343EA00532E1C /* UICProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A80AA80F268860050040F856 /* GWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWeatherView.swift; sourceTree = "<group>"; };
+		A80AA811268860330040F856 /* GCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCardView.swift; sourceTree = "<group>"; };
 		A83515EB266B70BF00532984 /* VideoControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoControllerView.swift; sourceTree = "<group>"; };
 		A83515EE266B72CA00532984 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		A83515F1266B73D700532984 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -65,6 +70,7 @@
 		A87198D325DA820D00ED4DD7 /* UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
 		A8D9F62925E0AF91001B81CD /* InProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressView.swift; sourceTree = "<group>"; };
 		A8D9F62D25E0C350001B81CD /* ViewModifierUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierUtil.swift; sourceTree = "<group>"; };
+		A8E3DAB32688485F0083CFDA /* GHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHomeView.swift; sourceTree = "<group>"; };
 		A8EF49D625F343EA00532E1C /* UICProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,6 +191,7 @@
 		A87198BD25DA546800ED4DD7 /* UI Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				A8E3DAB12688482E0083CFDA /* GoogleApp */,
 				A83515F3266B897800532984 /* PrimeVideo */,
 				A8586F6526690736005D3537 /* Kapuha Music */,
 				A865B7D42668A33A00F39AC0 /* NetflixClone */,
@@ -224,6 +231,24 @@
 				A8D9F62D25E0C350001B81CD /* ViewModifierUtil.swift */,
 			);
 			path = "In Progress";
+			sourceTree = "<group>";
+		};
+		A8E3DAB12688482E0083CFDA /* GoogleApp */ = {
+			isa = PBXGroup;
+			children = (
+				A8E3DAB2268848460083CFDA /* View */,
+			);
+			path = GoogleApp;
+			sourceTree = "<group>";
+		};
+		A8E3DAB2268848460083CFDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8E3DAB32688485F0083CFDA /* GHomeView.swift */,
+				A80AA80F268860050040F856 /* GWeatherView.swift */,
+				A80AA811268860330040F856 /* GCardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A8EF49D525F343D800532E1C /* Progress */ = {
@@ -313,7 +338,9 @@
 				A83515F8266B973900532984 /* NFTopBarView.swift in Sources */,
 				A8586F672669077A005D3537 /* KMOnboardingView.swift in Sources */,
 				A83515F6266B89A300532984 /* PVVideoView.swift in Sources */,
+				A80AA810268860050040F856 /* GWeatherView.swift in Sources */,
 				A8D9F62A25E0AF91001B81CD /* InProgressView.swift in Sources */,
+				A8E3DAB42688485F0083CFDA /* GHomeView.swift in Sources */,
 				A83515F2266B73D700532984 /* Movie.swift in Sources */,
 				A835160F266BBF2400532984 /* NFRectScrollView.swift in Sources */,
 				A87198C125DA546800ED4DD7 /* ContentView.swift in Sources */,
@@ -327,6 +354,7 @@
 				A8EF49D725F343EA00532E1C /* UICProgressView.swift in Sources */,
 				A87198BF25DA546800ED4DD7 /* UI_ChallengeApp.swift in Sources */,
 				A87198D025DA558E00ED4DD7 /* UIListView.swift in Sources */,
+				A80AA812268860330040F856 /* GCardView.swift in Sources */,
 				A8D9F62E25E0C350001B81CD /* ViewModifierUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
