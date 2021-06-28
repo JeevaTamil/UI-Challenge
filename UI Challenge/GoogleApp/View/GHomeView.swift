@@ -12,12 +12,16 @@ struct GHomeView: View {
     
     @State private var searchBox: String = ""
     @State private var offset: CGFloat = .zero
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack {
                 HStack {
                     GWeatherView()
+                        .onTapGesture {
+                            dismiss()
+                        }
                     Spacer()
                     Image("dev1")
                         .resizable()

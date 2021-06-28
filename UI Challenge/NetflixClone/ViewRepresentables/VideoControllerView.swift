@@ -11,6 +11,8 @@ import AVKit
 
 
 struct VideoControllerView: UIViewControllerRepresentable {
+    @Environment(\.presentationMode) var presentaionMode
+    
     typealias UIViewControllerType = AVPlayerViewController
     var movie: Movie
     
@@ -23,7 +25,11 @@ struct VideoControllerView: UIViewControllerRepresentable {
         let player = AVPlayer(url: url)
         uiViewController.allowsPictureInPicturePlayback = true
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            player.play()
+            if presentaionMode.wrappedValue.isPresented {
+                player.play()
+            } else {
+                player.pause()
+            }
         }
         uiViewController.player = player
         uiViewController.videoGravity = .resizeAspectFill

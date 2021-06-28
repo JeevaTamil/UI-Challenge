@@ -8,19 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-//    @StateObject var nfViewModel = NFViewModel()
     var body: some View {
         NavigationView {
-          // UIListView()
-           // .navigationTitle("UI Challenges")
-          //  NFHomeView()
-            if #available(iOS 15.0, *) {
-                GHomeView()
-            } else {
-                // Fallback on earlier versions
-                NFHomeView()
-            }
-//            .environmentObject(nfViewModel)
+           UIListView()
+            .navigationTitle("UI Challenges")
         }
         
     }

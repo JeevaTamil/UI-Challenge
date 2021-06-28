@@ -9,6 +9,7 @@ import SwiftUI
 
 
 struct NFTopBarView: View {
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
         VStack {
             HStack {
@@ -16,6 +17,9 @@ struct NFTopBarView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 40, height: 40)
+                    .onTapGesture {
+                        presentationMode.wrappedValue.dismiss()
+                    }
                 Spacer()
                 NFTopBarButtonView(title: "Series")
                 Spacer()

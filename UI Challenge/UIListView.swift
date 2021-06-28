@@ -7,24 +7,25 @@
 
 import SwiftUI
 
-
-
 struct UIModel: Identifiable {
     let id = UUID()
     let name: String
     let view: AnyView
 }
 
+var viewList = [
+    UIModel(name: "Scrollview progress bar", view: AnyView(UIScrollView())),
+    UIModel(name: "Inprogress", view: AnyView(InProgressView())),
+    UIModel(name: "Loading", view: AnyView(UICProgressView())),
+    UIModel(name: "Netflix", view: AnyView(NFHomeView()))
+]
 
 struct UIListView: View {
-    @State private var viewList = [
-        UIModel(name: "Scrollview progress bar", view: AnyView(UIScrollView())),
-        UIModel(name: "Inprogress", view: AnyView(InProgressView())),
-        UIModel(name: "Loading", view: AnyView(UICProgressView())),
-        UIModel(name: "Netflix", view: AnyView(NFHomeView()))
-      
-    
-    ]
+    init() {
+        if #available(iOS 15.0, *) {
+            viewList.append(UIModel(name: "Google app UI", view: AnyView(GHomeView())))
+        }
+    }
     var body: some View {
         List {
             ForEach(viewList) { view in
