@@ -15,7 +15,7 @@ struct VideoPlayerView: View {
     
     var body: some View {
         ZStack {
-            VideoControllerView(movie: movie)
+            VideoControllerView(url: movie.videoURL)
             if nfViewModel.isPosterDisplay {
                 Image(movie.imgName)
                 .resizable()
