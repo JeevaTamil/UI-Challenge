@@ -25,7 +25,7 @@ struct ABExploreView: View {
                             ABExploreNearView()
                             ABLiveAnyView()
                             ABGreatOutView()
-                          
+                            ABDiscoverView()
                         }
                         .zIndex(0)
                     }
@@ -33,16 +33,13 @@ struct ABExploreView: View {
                         .zIndex(1)
                 }
                 .padding(.bottom)
-            
             }
             .offset(y: covidOffset == 0 ? 80 : 0 )
-          
-            
             if covidOffset == 0 {
                 ABCovidView(covidOffset: $covidOffset)
             }
         }
-        .ignoresSafeArea(.all)
+        .ignoresSafeArea()
         .navigationBarHidden(true)
     }
 }

@@ -9,6 +9,9 @@ import SwiftUI
 
 
 struct ABExploreNearView: View {
+    
+    @Environment(\.deviceSize) var deviceSize
+    
     var body: some View {
         VStack {
             ABHeadingView(title: "Explore nearby")
@@ -20,18 +23,21 @@ struct ABExploreNearView: View {
                                 ABCityView(city: City.staticData[index])
                                 ABCityView(city: City.staticData[index + 1])
                             }
-                            .padding(.horizontal)
+//                            .padding(.horizontal)
                         }
                     }
                 }
+                .padding(.leading)
             }
         }
     }
 }
-
-
-struct ABExploreNearView_Previews: PreviewProvider {
-    static var previews: some View {
-        ABExploreNearView()
+    
+    
+    struct ABExploreNearView_Previews: PreviewProvider {
+        static var previews: some View {
+            ABExploreNearView()
+        }
     }
-}
+    
+    //

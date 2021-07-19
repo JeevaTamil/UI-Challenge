@@ -53,6 +53,9 @@
 		A8D56E2026A4B7A100C4E74F /* Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D56E1F26A4B7A100C4E74F /* Live.swift */; };
 		A8D56E2226A4B99500C4E74F /* ABLiveAnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D56E2126A4B99500C4E74F /* ABLiveAnyView.swift */; };
 		A8D56E2426A4C4F800C4E74F /* ABGreatOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D56E2326A4C4F800C4E74F /* ABGreatOutView.swift */; };
+		A8D5D49926A54F72009744A4 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5D49826A54F72009744A4 /* Discover.swift */; };
+		A8D5D49B26A55295009744A4 /* ABDiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5D49A26A55295009744A4 /* ABDiscoverView.swift */; };
+		A8D5D49D26A58D69009744A4 /* ABView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5D49C26A58D69009744A4 /* ABView.swift */; };
 		A8D9F62A25E0AF91001B81CD /* InProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D9F62925E0AF91001B81CD /* InProgressView.swift */; };
 		A8D9F62E25E0C350001B81CD /* ViewModifierUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D9F62D25E0C350001B81CD /* ViewModifierUtil.swift */; };
 		A8E3DAB42688485F0083CFDA /* GHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E3DAB32688485F0083CFDA /* GHomeView.swift */; };
@@ -108,6 +111,9 @@
 		A8D56E1F26A4B7A100C4E74F /* Live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live.swift; sourceTree = "<group>"; };
 		A8D56E2126A4B99500C4E74F /* ABLiveAnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABLiveAnyView.swift; sourceTree = "<group>"; };
 		A8D56E2326A4C4F800C4E74F /* ABGreatOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABGreatOutView.swift; sourceTree = "<group>"; };
+		A8D5D49826A54F72009744A4 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
+		A8D5D49A26A55295009744A4 /* ABDiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABDiscoverView.swift; sourceTree = "<group>"; };
+		A8D5D49C26A58D69009744A4 /* ABView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABView.swift; sourceTree = "<group>"; };
 		A8D9F62925E0AF91001B81CD /* InProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressView.swift; sourceTree = "<group>"; };
 		A8D9F62D25E0C350001B81CD /* ViewModifierUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierUtil.swift; sourceTree = "<group>"; };
 		A8E3DAB32688485F0083CFDA /* GHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHomeView.swift; sourceTree = "<group>"; };
@@ -367,6 +373,8 @@
 				A8D56E1D26A4B6B300C4E74F /* ABSearchView.swift */,
 				A8D56E2126A4B99500C4E74F /* ABLiveAnyView.swift */,
 				A8D56E2326A4C4F800C4E74F /* ABGreatOutView.swift */,
+				A8D5D49A26A55295009744A4 /* ABDiscoverView.swift */,
+				A8D5D49C26A58D69009744A4 /* ABView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -376,6 +384,7 @@
 			children = (
 				A8D56E1226A49ECC00C4E74F /* City.swift */,
 				A8D56E1F26A4B7A100C4E74F /* Live.swift */,
+				A8D5D49826A54F72009744A4 /* Discover.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -509,10 +518,12 @@
 				A8656B5026A2997F00A7B57C /* ADView.swift in Sources */,
 				A87198C125DA546800ED4DD7 /* ContentView.swift in Sources */,
 				A83515FA266B9CD900532984 /* NFQuickActionView.swift in Sources */,
+				A8D5D49926A54F72009744A4 /* Discover.swift in Sources */,
 				A851B8B5268EFE0B003E06E9 /* IRModel.swift in Sources */,
 				A83515EF266B72CA00532984 /* VideoPlayerView.swift in Sources */,
 				A87198D425DA820D00ED4DD7 /* UIScrollView.swift in Sources */,
 				A83515FC266BA5A400532984 /* NFTopHomeView.swift in Sources */,
+				A8D5D49D26A58D69009744A4 /* ABView.swift in Sources */,
 				A83515EC266B70BF00532984 /* VideoControllerView.swift in Sources */,
 				A8D56E1C26A4B64F00C4E74F /* ABCovidView.swift in Sources */,
 				A8D56E2226A4B99500C4E74F /* ABLiveAnyView.swift in Sources */,
@@ -520,6 +531,7 @@
 				A8D56E1526A4B55600C4E74F /* ABExploreNearView.swift in Sources */,
 				A83515FE266BA9EF00532984 /* NFPreviewsView.swift in Sources */,
 				A8D56E1E26A4B6B300C4E74F /* ABSearchView.swift in Sources */,
+				A8D5D49B26A55295009744A4 /* ABDiscoverView.swift in Sources */,
 				A8D56E1326A49ECC00C4E74F /* City.swift in Sources */,
 				A8D56E2026A4B7A100C4E74F /* Live.swift in Sources */,
 				A8EF49D725F343EA00532E1C /* UICProgressView.swift in Sources */,

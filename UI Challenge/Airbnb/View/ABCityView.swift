@@ -20,9 +20,11 @@ struct ABCityView: View {
             VStack(alignment: .leading, spacing: 5) {
                 Text(city.name)
                     .font(.system(size: 18, weight: .semibold, design: .rounded))
+                    .fixedSize()
                 
                 Text("\(city.timeForTravel)-hour drive")
                     .foregroundColor(.secondary)
+                    .fixedSize()
             }
         }
     }
@@ -30,6 +32,6 @@ struct ABCityView: View {
 
 struct ABCityView_Previews: PreviewProvider {
     static var previews: some View {
-        ABCityView(city: City.staticData.first!)
+        ABCityView(city: City.staticData[3])
     }
 }
