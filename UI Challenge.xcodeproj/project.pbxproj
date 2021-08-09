@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		A80AA810268860050040F856 /* GWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80AA80F268860050040F856 /* GWeatherView.swift */; };
 		A80AA812268860330040F856 /* GCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80AA811268860330040F856 /* GCardView.swift */; };
+		A813D9FB26C0182F00CCE326 /* MSCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A813D9FA26C0182F00CCE326 /* MSCardView.swift */; };
+		A813D9FE26C0204200CCE326 /* MSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A813D9FD26C0204200CCE326 /* MSViewModel.swift */; };
+		A813DA0026C0282D00CCE326 /* MSBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A813D9FF26C0282D00CCE326 /* MSBottomSheetView.swift */; };
+		A813DA0226C056D300CCE326 /* MSCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A813DA0126C056D300CCE326 /* MSCartView.swift */; };
 		A83515EC266B70BF00532984 /* VideoControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83515EB266B70BF00532984 /* VideoControllerView.swift */; };
 		A83515EF266B72CA00532984 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83515EE266B72CA00532984 /* VideoPlayerView.swift */; };
 		A83515F2266B73D700532984 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83515F1266B73D700532984 /* Movie.swift */; };
@@ -41,7 +45,13 @@
 		A87198C625DA546A00ED4DD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87198C525DA546A00ED4DD7 /* Preview Assets.xcassets */; };
 		A87198D025DA558E00ED4DD7 /* UIListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87198CF25DA558E00ED4DD7 /* UIListView.swift */; };
 		A87198D425DA820D00ED4DD7 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87198D325DA820D00ED4DD7 /* UIScrollView.swift */; };
+		A877523126C1596100594C71 /* MSPromoCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A877523026C1596100594C71 /* MSPromoCodeView.swift */; };
+		A877523326C1614200594C71 /* MSClearCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A877523226C1614200594C71 /* MSClearCartView.swift */; };
 		A88219EF268DFD1700713EBE /* ABExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88219EE268DFD1700713EBE /* ABExploreView.swift */; };
+		A888E10E26C00C68005E0741 /* Milkshake.swift in Sources */ = {isa = PBXBuildFile; fileRef = A888E10D26C00C68005E0741 /* Milkshake.swift */; };
+		A888E11026C00EE4005E0741 /* MSListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A888E10F26C00EE4005E0741 /* MSListView.swift */; };
+		A888E11226C01505005E0741 /* MSToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A888E11126C01505005E0741 /* MSToolBarView.swift */; };
+		A8C5A62C26AC4E2200F338C3 /* ECDiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C5A62B26AC4E2200F338C3 /* ECDiscoverView.swift */; };
 		A8D56E0E26A497C300C4E74F /* ABImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D56E0D26A497C300C4E74F /* ABImageView.swift */; };
 		A8D56E1026A4984B00C4E74F /* ABFlexibleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D56E0F26A4984B00C4E74F /* ABFlexibleButtonView.swift */; };
 		A8D56E1326A49ECC00C4E74F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D56E1226A49ECC00C4E74F /* City.swift */; };
@@ -65,6 +75,10 @@
 /* Begin PBXFileReference section */
 		A80AA80F268860050040F856 /* GWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWeatherView.swift; sourceTree = "<group>"; };
 		A80AA811268860330040F856 /* GCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCardView.swift; sourceTree = "<group>"; };
+		A813D9FA26C0182F00CCE326 /* MSCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSCardView.swift; sourceTree = "<group>"; };
+		A813D9FD26C0204200CCE326 /* MSViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSViewModel.swift; sourceTree = "<group>"; };
+		A813D9FF26C0282D00CCE326 /* MSBottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSBottomSheetView.swift; sourceTree = "<group>"; };
+		A813DA0126C056D300CCE326 /* MSCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSCartView.swift; sourceTree = "<group>"; };
 		A83515EB266B70BF00532984 /* VideoControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoControllerView.swift; sourceTree = "<group>"; };
 		A83515EE266B72CA00532984 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		A83515F1266B73D700532984 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -99,7 +113,13 @@
 		A87198C725DA546A00ED4DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A87198CF25DA558E00ED4DD7 /* UIListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIListView.swift; sourceTree = "<group>"; };
 		A87198D325DA820D00ED4DD7 /* UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		A877523026C1596100594C71 /* MSPromoCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSPromoCodeView.swift; sourceTree = "<group>"; };
+		A877523226C1614200594C71 /* MSClearCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSClearCartView.swift; sourceTree = "<group>"; };
 		A88219EE268DFD1700713EBE /* ABExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABExploreView.swift; sourceTree = "<group>"; };
+		A888E10D26C00C68005E0741 /* Milkshake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milkshake.swift; sourceTree = "<group>"; };
+		A888E10F26C00EE4005E0741 /* MSListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSListView.swift; sourceTree = "<group>"; };
+		A888E11126C01505005E0741 /* MSToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSToolBarView.swift; sourceTree = "<group>"; };
+		A8C5A62B26AC4E2200F338C3 /* ECDiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECDiscoverView.swift; sourceTree = "<group>"; };
 		A8D56E0D26A497C300C4E74F /* ABImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABImageView.swift; sourceTree = "<group>"; };
 		A8D56E0F26A4984B00C4E74F /* ABFlexibleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABFlexibleButtonView.swift; sourceTree = "<group>"; };
 		A8D56E1226A49ECC00C4E74F /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
@@ -131,6 +151,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A813D9FC26C0202800CCE326 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A813D9FD26C0204200CCE326 /* MSViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		A83515EA266B70A300532984 /* ViewRepresentables */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,6 +342,8 @@
 		A87198BD25DA546800ED4DD7 /* UI Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				A888E10A26C00C49005E0741 /* MilkShake */,
+				A8C5A62826AC4DD600F338C3 /* E-Commerce */,
 				A8656B5126A2C29000A7B57C /* Spotify */,
 				A8656B4D26A2996300A7B57C /* AnimatableData */,
 				A851B8B2268EFDE5003E06E9 /* InstaReels */,
@@ -377,6 +407,62 @@
 				A8D5D49C26A58D69009744A4 /* ABView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A888E10A26C00C49005E0741 /* MilkShake */ = {
+			isa = PBXGroup;
+			children = (
+				A813D9FC26C0202800CCE326 /* ViewModel */,
+				A888E10C26C00C59005E0741 /* Model */,
+				A888E10B26C00C53005E0741 /* View */,
+			);
+			path = MilkShake;
+			sourceTree = "<group>";
+		};
+		A888E10B26C00C53005E0741 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A888E10F26C00EE4005E0741 /* MSListView.swift */,
+				A888E11126C01505005E0741 /* MSToolBarView.swift */,
+				A813D9FA26C0182F00CCE326 /* MSCardView.swift */,
+				A813D9FF26C0282D00CCE326 /* MSBottomSheetView.swift */,
+				A813DA0126C056D300CCE326 /* MSCartView.swift */,
+				A877523026C1596100594C71 /* MSPromoCodeView.swift */,
+				A877523226C1614200594C71 /* MSClearCartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A888E10C26C00C59005E0741 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A888E10D26C00C68005E0741 /* Milkshake.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8C5A62826AC4DD600F338C3 /* E-Commerce */ = {
+			isa = PBXGroup;
+			children = (
+				A8C5A62A26AC4E0700F338C3 /* Model */,
+				A8C5A62926AC4E0100F338C3 /* View */,
+			);
+			path = "E-Commerce";
+			sourceTree = "<group>";
+		};
+		A8C5A62926AC4E0100F338C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8C5A62B26AC4E2200F338C3 /* ECDiscoverView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8C5A62A26AC4E0700F338C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A8D56E1126A49EC200C4E74F /* Model */ = {
@@ -504,10 +590,13 @@
 			files = (
 				A8D56E1026A4984B00C4E74F /* ABFlexibleButtonView.swift in Sources */,
 				A8351603266BB3A400532984 /* NFViewModel.swift in Sources */,
+				A813DA0226C056D300CCE326 /* MSCartView.swift in Sources */,
 				A83515F8266B973900532984 /* NFTopBarView.swift in Sources */,
 				A851B8BF268F3065003E06E9 /* IGReelsView.swift in Sources */,
 				A8586F672669077A005D3537 /* KMOnboardingView.swift in Sources */,
+				A888E11026C00EE4005E0741 /* MSListView.swift in Sources */,
 				A83515F6266B89A300532984 /* PVVideoView.swift in Sources */,
+				A877523326C1614200594C71 /* MSClearCartView.swift in Sources */,
 				A8D56E1A26A4B5DD00C4E74F /* ABHeadingView.swift in Sources */,
 				A80AA810268860050040F856 /* GWeatherView.swift in Sources */,
 				A88219EF268DFD1700713EBE /* ABExploreView.swift in Sources */,
@@ -521,22 +610,29 @@
 				A8D5D49926A54F72009744A4 /* Discover.swift in Sources */,
 				A851B8B5268EFE0B003E06E9 /* IRModel.swift in Sources */,
 				A83515EF266B72CA00532984 /* VideoPlayerView.swift in Sources */,
+				A813DA0026C0282D00CCE326 /* MSBottomSheetView.swift in Sources */,
 				A87198D425DA820D00ED4DD7 /* UIScrollView.swift in Sources */,
 				A83515FC266BA5A400532984 /* NFTopHomeView.swift in Sources */,
 				A8D5D49D26A58D69009744A4 /* ABView.swift in Sources */,
 				A83515EC266B70BF00532984 /* VideoControllerView.swift in Sources */,
+				A888E11226C01505005E0741 /* MSToolBarView.swift in Sources */,
 				A8D56E1C26A4B64F00C4E74F /* ABCovidView.swift in Sources */,
 				A8D56E2226A4B99500C4E74F /* ABLiveAnyView.swift in Sources */,
 				A865B7D62668A35300F39AC0 /* NFHomeView.swift in Sources */,
+				A877523126C1596100594C71 /* MSPromoCodeView.swift in Sources */,
 				A8D56E1526A4B55600C4E74F /* ABExploreNearView.swift in Sources */,
+				A888E10E26C00C68005E0741 /* Milkshake.swift in Sources */,
 				A83515FE266BA9EF00532984 /* NFPreviewsView.swift in Sources */,
+				A8C5A62C26AC4E2200F338C3 /* ECDiscoverView.swift in Sources */,
 				A8D56E1E26A4B6B300C4E74F /* ABSearchView.swift in Sources */,
 				A8D5D49B26A55295009744A4 /* ABDiscoverView.swift in Sources */,
 				A8D56E1326A49ECC00C4E74F /* City.swift in Sources */,
 				A8D56E2026A4B7A100C4E74F /* Live.swift in Sources */,
 				A8EF49D725F343EA00532E1C /* UICProgressView.swift in Sources */,
 				A8D56E1726A4B57500C4E74F /* ABCityView.swift in Sources */,
+				A813D9FB26C0182F00CCE326 /* MSCardView.swift in Sources */,
 				A87198BF25DA546800ED4DD7 /* UI_ChallengeApp.swift in Sources */,
+				A813D9FE26C0204200CCE326 /* MSViewModel.swift in Sources */,
 				A8D56E2426A4C4F800C4E74F /* ABGreatOutView.swift in Sources */,
 				A851B8C2268F452B003E06E9 /* IGViewModel.swift in Sources */,
 				A8D56E0E26A497C300C4E74F /* ABImageView.swift in Sources */,
